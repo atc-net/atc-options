@@ -16,5 +16,6 @@ public class NamingProvider : INamingProvider
             namingOptions.SystemAbbreviation,
             options.EnvironmentName,
             namingOptions.ServiceAbbreviation,
-            suffix);
+            suffix,
+            namingOptions.RegionAbbreviation);
 }
