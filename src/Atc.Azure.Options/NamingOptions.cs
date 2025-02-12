@@ -8,6 +8,8 @@ public class NamingOptions
 
     public string CompanyAbbreviation { get; set; } = string.Empty;
 
+    public string RegionAbbreviation { get; set; } = string.Empty;
+
     public override string ToString()
-        => $"{nameof(SystemAbbreviation)}: {SystemAbbreviation}, {nameof(ServiceAbbreviation)}: {ServiceAbbreviation}, {nameof(CompanyAbbreviation)}: {CompanyAbbreviation}";
+        => $"{nameof(SystemAbbreviation)}: {SystemAbbreviation}, {nameof(ServiceAbbreviation)}: {ServiceAbbreviation}, {nameof(CompanyAbbreviation)}: {CompanyAbbreviation}, {nameof(RegionAbbreviation)}: {RegionAbbreviation}";
 }
